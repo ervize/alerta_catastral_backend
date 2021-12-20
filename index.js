@@ -9,7 +9,7 @@ const msqlConnection = require('./lib/msql');
 const {logErrors, errorHandler, boomErrorHandler} = require('./middlewares/error.handler');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 app.use(express.json());
 
 // solicitar recursos restringidos en una página web
